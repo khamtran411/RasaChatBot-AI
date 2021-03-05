@@ -68,6 +68,11 @@ responses:
   - text: step to create account
   utter_reset_password:
   - text: steps to reset password
-actions: []
+  utter_feel_good:
+  - text: good
+  utter_feel_bad:
+  - text: sorry
+actions:
+- did_that_help
 forms: {}
 e2e_actions: []

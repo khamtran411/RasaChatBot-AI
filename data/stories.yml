@@ -16,3 +16,9 @@ stories:
   steps:
   - intent: create_account
   - action: utter_create_account
+- story: did_that_help_affirm
+  steps:
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_feel_good
+    
