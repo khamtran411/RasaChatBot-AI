@@ -1,0 +1,73 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- Reset_password:
+    use_entities: true
+- Creator_info:
+    use_entities: true
+- Greate_input:
+    use_entities: true
+- create_account:
+    use_entities: true
+- Contact_admin:
+    use_entities: true
+- Get_start:
+    use_entities: true
+- data_file_info:
+    use_entities: true
+- App_info:
+    use_entities: true
+- Delete_node:
+    use_entities: true
+- Graph_info:
+    use_entities: true
+- Create_graph:
+    use_entities: true
+- Exacute_test_cases:
+    use_entities: true
+- Add_note:
+    use_entities: true
+- Create_new_graph:
+    use_entities: true
+- Generate_test_cases:
+    use_entities: true
+- Modify_node:
+    use_entities: true
+- Create_test_cases:
+    use_entities: true
+- Input_graph:
+    use_entities: true
+- Test_case_group_info:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_greet:
+  - text: Greettinng. I am Chatbot Assistant power for the AI testing tool. My primary tasks are provide user information and guidace of the AI testing tool features. If you want to know list of available I support please type "list" or "functions" .
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_goodbye:
+  - text: Bye
+  utter_App_info:
+  - text: edit app  info
+  utter_Creator_info:
+  - text: edit creator info
+  utter_create_account:
+  - text: step to create account
+  utter_reset_password:
+  - text: steps to reset password
+actions: []
+forms: {}
+e2e_actions: []

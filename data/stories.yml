@@ -1,0 +1,18 @@
+version: "2.0"
+stories:
+- story: Greeting
+  steps:
+  - intent: greet
+  - action: utter_greet
+- story: App_information
+  steps:
+  - intent: App_info
+  - action: utter_App_info
+- story: Creator_info
+  steps:
+  - intent: Creator_info
+  - action: utter_Creator_info
+- story: Create account
+  steps:
+  - intent: create_account
+  - action: utter_create_account
