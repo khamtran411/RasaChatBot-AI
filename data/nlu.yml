@@ -6,6 +6,7 @@ nlu:
     - hello
     - hi
     - hello there
+    - hi there
     - good morning
     - good evening
     - moin
@@ -13,6 +14,9 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - wassup
+    - hello!
+    - hey!
 - intent: goodbye
   examples: |
     - good afternoon
@@ -21,10 +25,14 @@ nlu:
     - good night
     - bye
     - goodbye
+    - night
     - have a nice day
+    - have a good day
+    - have a good day!
     - see you around
     - bye bye
     - see you later
+    - see ya!
 - intent: affirm
   examples: |
     - yes
@@ -33,6 +41,11 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - right
+    - true
+    - yah
+    - yeah
+    - exactly
 - intent: deny
   examples: |
     - no
@@ -42,22 +55,25 @@ nlu:
     - don't like that
     - no way
     - not really
+    - false
+    - nope
 - intent: App_info
   examples: |
-    - what is AL testing Tool ?
-    - What does Al testing Tool do ?
-    - what does this app do ?
+    - what is AL testing Tool?
+    - What does Al testing Tool do?
+    - what does this app do?
     - app information
     - app info
+    - what is this for?
 - intent: Creator_info
   examples: |
-    - Who create the AI testing tool ?
-    - Who is the creator ?
-    - who is the Author ?
+    - Who create the AI testing tool?
+    - Who is the creator?
+    - who is the Author?
 - intent: create_account
   examples: |
-    - Show me how to create user ?
-    - Show me hos to create account ?
+    - Show me how to create user?
+    - Show me hos to create account?
     - create user account
     - create account
     - create user
@@ -71,19 +87,19 @@ nlu:
     - How to get my password back
 - intent: Contact_admin
   examples: |
-    - How can I contact the admin ?
-    - How to cantact admin ?
-    - Contact admin ?
-    - How to send feedback ?
-    - How to submit Ticket ?
-    - submit a ticket ?
+    - How can I contact the admin?
+    - How to cantact admin?
+    - Contact admin?
+    - How to send feedback?
+    - How to submit Ticket?
+    - submit a ticket?
 - intent: Get_start
   examples: |
-    - Show me how to start ?
-    - What is the first step ?
-    - How to start ?
-    - how to get start ?
-    - what should i do first ?
+    - Show me how to start?
+    - What is the first step?
+    - How to start?
+    - how to get start?
+    - what should i do first?
 - intent: Greate_input
   examples: |
     - input file
@@ -100,15 +116,15 @@ nlu:
     - what does data type support
 - intent: Graph_info
   examples: |
-    - What does the  graph fuction do ?
+    - What does the  graph fuction do?
     - What is the Data administration with graph?
     - What does the Data administration with graph do?
     - Graph
     - Data administration with graph
 - intent: Create_graph
   examples: |
-    - How can I create a graph ?
-    - How can I start using the graph tool ?
+    - How can I create a graph?
+    - How can I start using the graph tool?
     - create graph
     - input graph
     - draw graph
@@ -124,10 +140,10 @@ nlu:
     - create graph from input file
 - intent: Add_note
   examples: |
-    - Could you show me how to add node ?
+    - Could you show me how to add node?
     - add note
     - add new node
-    - How to add node to graph ?
+    - How to add node to graph?
 - intent: Delete_node
   examples: |
     - Show me how to delete node
@@ -158,6 +174,6 @@ nlu:
   examples: |
     - Generate test case
     - generate test cases
-    - how to generate test cases ?
+    - how to generate test cases?
     - how to generate test cases
 
